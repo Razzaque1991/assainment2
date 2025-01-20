@@ -173,3 +173,86 @@ marquee h1{
 
 
 /*-------------------------------------- banner-section--end */
+
+/* ---------------------------------curriculum-section-start */ 
+.curriculum-section-start{
+    max-width:90rem;
+    height:55rem;
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5rem auto 2rem;
+    text-align: center;
+}
+ .standard{
+    font-size: 2.87rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.curriculum-card-container{
+    max-width:72.5rem;
+    height:25rem;
+    margin: 5rem auto 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+.card-box{
+    max-width:23rem;
+    height:30rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+.box-card h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.box-card p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0; 
+}
+.read{
+    color: red;
+    margin-top: 2rem;
+}
+.rea{
+    color: rgb(13, 204, 55);
+    margin-top: 2rem;
+}
+.re{
+    color: rgb(17, 0, 255);
+    margin-top: 2rem;
+}
+
+.radious-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13rem auto 0;
+    gap: 1rem;
+}
+
+.les, .geter{
+    background-color: #FEA301;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+/* ---------------------------------curriculum-section---end */

@@ -15,11 +15,10 @@ body{
 .header-container{
     max-width: 72.5rem;
     height: 3.9rem;
-    margin: 0 auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: 12.62rem 24.2rem 12rem;
     justify-content: space-between;
-    margin-top: 1rem;
 }
 
 /* logo-style */
@@ -102,6 +101,16 @@ border-radius: 10px;
 font-size: 1.25rem;
 font-weight:600;
 }
+.header-btn button:hover{
+    background-color: green;
+    color: white;
+}
+
+/* mobile-for-display-none */
+.mobile,.unde-line{
+    display: none;
+}
+
 
 
 /*-------------------------------------- header-section---end */

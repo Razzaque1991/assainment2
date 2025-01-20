@@ -110,7 +110,61 @@ font-weight:600;
 .mobile,.unde-line{
     display: none;
 }
-
-
-
 /*-------------------------------------- header-section---end */
+
+/*-------------------------------------- marque-section-start */
+marquee h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #FEA301;
+    
+}
+.kids{
+    color:#01ACFD ;
+}
+/*-------------------------------------- marque-section---end */
+
+/*-------------------------------------- banner-section-start */
+.banner-container{
+    max-width: 72.4rem;
+    height: 36rem;
+    margin: .5rem auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.banner-container .right-banner{
+    max-width: 40rem;
+    height: 20.68rem;
+}
+.Empowering{
+    color: #FEA301;
+}
+.towards{
+    color: #01ACFD;
+}
+.banner-container .right-banner h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-container .left-banner{
+    max-width: 29.28rem;
+    height: 36rem;
+}
+.banner-btn button{
+    width:12.3rem;
+    height:3.1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight:600;
+    margin-top: 1rem;  
+}
+.banner-btn button:hover{
+    background-color: #FEA301;
+}
+
+
+/*-------------------------------------- banner-section--end */

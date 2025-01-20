@@ -51,6 +51,28 @@
 }
 /* ----------------------------------banner-section---end */
 
+/*------------------------------- curriculum-section-start */
+.curriculum-section-start{
+    max-width:100%;
+    height:auto;
+    background-image: none;
+    margin: 1rem auto 1rem;
+}
+.curriculum-card-container{
+    max-width:100%;
+    height:auto;
+    grid-template-columns: repeat(1,1fr);
+    padding: 2rem;
+}
+.card-box{
+    max-width:100%;
+    height:30rem;
+}
+.radious-container{
+    display: none;
+}
+/*------------------------------- curriculum-section---end */
+
 
 
 /* end */

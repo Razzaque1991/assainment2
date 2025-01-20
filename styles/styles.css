@@ -147,6 +147,11 @@ marquee h1{
     font-size: 3.5rem;
     font-weight: bold;
 }
+.banner-container .right-banner p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
 .banner-container .left-banner{
     max-width: 29.28rem;
     height: 36rem;

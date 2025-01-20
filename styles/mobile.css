@@ -30,9 +30,29 @@
 
 /*-------------------- header-section---end */
 
+/* ----------------------------------banner-section-start */
+.banner-container{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    height: auto;
+    text-align: center;
+}
+.banner-container .right-banner h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.banner-container .right-banner p{
+    font-size: .9rem;
+    font-weight: 300;
+}
+.left-banner img{
+    width: 25rem;
+    height: 35rem;
+}
+/* ----------------------------------banner-section---end */
 
 
 
-
+/* end */
 
  }

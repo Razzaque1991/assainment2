@@ -74,6 +74,48 @@
 }
 /*------------------------------- curriculum-section---end */
 
+/*---------------------------------- stories-section-start */
+.left-galary{
+    display: none;
+}
+.right-galary{
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: .5rem;
+    padding: 1rem;
+ }
+ .right-galary .img1{
+    max-width:100%;
+    height:auto;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ 
+ .img1 img{
+    max-width:100%;
+    height:auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit:fill;
+ }
+ .in-btn button{
+    width:10.9rem;
+    height:2.3rem;
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: .9rem;
+    font-weight:400;
+    position: absolute;
+    left: .5rem;
+    top: 7rem;
+ }
+/*---------------------------------- stories-section---end */
+
 
 
 /* end */

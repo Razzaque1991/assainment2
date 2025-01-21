@@ -251,8 +251,117 @@ marquee h1{
     align-items: center;
     color: white;
 }
-
-
-
-
 /* ---------------------------------curriculum-section---end */
+
+/* -----------------------------------stories-section-start */
+ .stories-container{
+    text-align: center;
+ }
+ .stories-container h1{
+    font-size: 2.87rem;
+    font-weight: bold;
+    margin: 3rem 0;  
+ }
+ .stories-galary{
+    max-width:72.5rem;
+    height:45.6rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #e0eaeb 100%);
+ }
+
+ .left-galary{
+    max-width:33.76rem;
+    height:38.6rem;
+    margin:0 auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(51, 50, 50);
+    position: relative;
+ }
+ .left-galary img{
+    max-width:33.76rem;
+    height:21rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit:contain;
+ }
+ .left-galary h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5vw;
+ }
+ .left-galary p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 5vw;
+    color: rgb(73, 71, 71);
+ }
+ .left-galary button{
+    width:11rem;
+    height:3rem;
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: .9rem;
+    font-weight:400;
+    position: absolute;
+   left: 3.5rem;
+   top: 19.5rem;
+ }
+ .right-galary{
+    max-width:33.76rem;
+    height:39.4rem;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: .5rem;
+ }
+ .right-galary .img1{
+    max-width:16rem;
+    height:18.85rem;
+    background-color: white;
+    border-radius: 1rem;
+ }
+ .img1 img{
+    max-width:16rem;
+    height:12.3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    object-fit:fill;
+ }
+ .img1 h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3vw;
+    margin-top: 8vh;
+}
+ .img1{
+    position: relative;
+    box-shadow: 2px 2px 2px rgb(51, 50, 50);
+
+ }
+ .in-btn button{
+    width:10.9rem;
+    height:2.3rem;
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: .9rem;
+    font-weight:400;
+    position: absolute;
+    left: 2rem;
+    top: 11rem;
+ }
+
+
+
+
+/* -----------------------------------stories-section----end */

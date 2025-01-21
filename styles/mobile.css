@@ -24,6 +24,7 @@
 }
 
 .unde-line{
+    width: 100%;
     display: block;
     border-top:1px solid #FEA301 ;
 }
@@ -102,7 +103,7 @@
     object-fit:fill;
  }
  .in-btn button{
-    width:10.9rem;
+    width:9.9rem;
     height:2.3rem;
     background-color: #3CD8E8;
     color: white;
@@ -111,10 +112,38 @@
     font-size: .9rem;
     font-weight:400;
     position: absolute;
-    left: .5rem;
-    top: 7rem;
+    left: .4rem;
+    top: 6rem;
  }
 /*---------------------------------- stories-section---end */
+
+/* -------------------------------------footer-section-start */
+.footer-container{
+    max-width:100%;
+    height:30.6rem;
+    margin:0 auto 4rem;
+    background-color: #01ACFD;
+}
+.all-footer-container{
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+    padding: 2rem;
+}
+.left-footer{
+    max-width:100%;
+    height:auto; 
+}
+.midle-footer{
+    max-width: 100%;
+    height: auto;
+ }
+ 
+.right-footer{
+    max-width:100%;
+    height: auto;  
+}
+/* -------------------------------------footer-section---end */
 
 
 

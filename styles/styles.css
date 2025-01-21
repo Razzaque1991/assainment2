@@ -108,6 +108,7 @@ font-weight:600;
 
 /* mobile-for-display-none */
 .mobile,.unde-line{
+    width: 90rem;
     display: none;
 }
 /*-------------------------------------- header-section---end */
@@ -366,7 +367,7 @@ marquee h1{
 /*------------------------------------ footer-container-start */
 .footer-container{
     max-width:72.5rem;
-    height:20.6rem;
+    height:auto;
     margin:0 auto 4rem;
     background-color: #01ACFD;
 }

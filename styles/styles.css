@@ -361,7 +361,86 @@ marquee h1{
     top: 11rem;
  }
 
-
-
-
 /* -----------------------------------stories-section----end */
+
+/*------------------------------------ footer-container-start */
+.footer-container{
+    max-width:72.5rem;
+    height:20.6rem;
+    margin:0 auto 4rem;
+    background-color: #01ACFD;
+}
+.all-footer-container{
+    max-width:68.5rem;
+    height:15.6rem;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.left-footer{
+    max-width:25rem;
+    height:auto; 
+}
+.left-footer p{
+    font-size:.5rem;
+    font-weight:400;
+    color:white;
+}
+
+.midle-footer{
+   max-width: 25rem;
+   height: auto;
+}
+.midle-footer h1{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:white;
+    margin-bottom: .5rem;
+}
+.midle-footer ul li{
+    list-style: none;
+}
+.midle-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.right-footer{
+    max-width: 25rem;
+    height: auto;  
+}
+.right-footer h1{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:white;
+    margin-bottom: 1.9rem;
+}
+.right-footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-footer ul li{
+    list-style: none; 
+}
+.right-footer ul li a i {
+    font-size: 2rem;
+    margin-top: .5rem;
+    color: white;
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content:start;
+    align-items: center; 
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+.footer-logo-container h1{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:white;
+}
+
+/*------------------------------------ footer-container---end */
